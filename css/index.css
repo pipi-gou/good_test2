@@ -6,8 +6,8 @@ html{
     width: .3rem;
     height: .3rem;
     z-index: 10;
-    right: .3rem;
-    top: .3rem;
+    right: .2rem;
+    top: .2rem;
     background-image: url(../music.png);
     background-size: contain;
 }
@@ -1380,7 +1380,7 @@ html{
     display: flex;
     height: .6rem;
     z-index: 10;
-    margin: .6rem .6rem 0 .6rem;
+    margin: .3rem .6rem 0 .6rem;
     justify-content: center;
     flex-wrap: wrap;
 
@@ -1397,7 +1397,7 @@ html{
     display: inline-block;
     height: .6rem;
     z-index: 20;
-    bottom: .6rem;
+    bottom: .3rem;
     font-size: .2rem;
     position: absolute;
     left: 50%;
