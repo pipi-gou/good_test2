@@ -2,6 +2,16 @@ var x = document.getElementById("media");
 $(function(){
     //----------页面初始化------------
     var audio = document.getElementById('audio');
+    document.addEventListener('DOMContentLoaded', function () {
+    function audioAutoPlay() {
+        var audio = document.getElementById('audio');
+            audio.play();
+        document.addEventListener("WeixinJSBridgeReady", function () {
+            audio.play();
+        }, false);
+    }
+    audioAutoPlay();
+});
     if(sessionStorage.bgmusic=='pause'){
         playBgMusic(false);
     }else{
